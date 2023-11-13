@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	const int n1 = 15;
+	long long n2 = 1;
+
+	for (int i = 1; i <= n1; i++)
+	{
+		n2 *= i;
+	}
+	cout << n2 << endl;
+
+	return 0;
+}
