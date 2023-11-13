@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(0, "");
+    int N;
+    int F = 15;
+   	for (int i = 1; i <= F; ++i)
+    {
+	    N *= i;
+	}
+return 0;
+}
